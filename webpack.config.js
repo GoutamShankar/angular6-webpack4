@@ -42,6 +42,15 @@ let webpackConfig = {
     // How the different types of modules within a project will be treated
     module: {
         rules: [
+          {
+  test: /\.(html)$/,
+  use: {
+    loader: 'html-loader',
+    options: {
+      attrs: [':data-src']
+    }
+  }
+},
             {
                 // All files with a '.ts' extension will be handled by ts-loader
                 test: /\.ts$/,
