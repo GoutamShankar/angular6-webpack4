@@ -6,7 +6,7 @@ import { SelectivePreloadingStrategy } from './selective-preloading-strategy';
 
 const appRoutes: Routes = [
   {
-    path: 'supply',
+    path: 'feature1',
     component: SupplyPageComponent
   }
 ];
