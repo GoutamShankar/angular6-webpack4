@@ -35,7 +35,7 @@ let webpackConfig = {
 
     // Where webpack looks to start building the bundle
     entry: {
-        'corejs': 'core-js/client/shim', // Angular dependency
+        'vendor': './src/vendor.ts', // Angular dependency
         'polyfills': './src/polyfills.ts', // Angular dependency
         'app': './src/main.ts' // App entry point
     },
