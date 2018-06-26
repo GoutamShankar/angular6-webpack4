@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['../src/app/app.component.css']
 })
 export class AppComponent {
-  title = 'Rapido Dashboard';
+  title = 'Dashboard';
 }
