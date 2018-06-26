@@ -5,16 +5,20 @@ import { AppComponent } from '../../src/app/app.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 import { DisplayPaneComponent } from './display-pane/display-pane.component';
+import { SupplyPageComponent } from './supply-page/supply-page.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     TopNavigationComponent,
-    DisplayPaneComponent
+    DisplayPaneComponent,
+    SupplyPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
